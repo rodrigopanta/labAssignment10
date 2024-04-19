@@ -96,7 +96,7 @@ int main(void) {
   char *inWords[256];
 
   // read the number of the words in the dictionary
-  int numWords = readDictionary("dictionary.txt", inWords);
+  int numWords = readDictionary("dictionary-1.txt", inWords);
   for (int i = 0; i < numWords; ++i) {
     printf("%s\n", inWords[i]);
   }
